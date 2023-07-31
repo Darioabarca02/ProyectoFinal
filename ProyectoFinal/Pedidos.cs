@@ -19,6 +19,18 @@ namespace ProyectoFinal
         {
             Listpedidos.Add(pedido);
         }
+        public List<Pedido> Imprimir()
+        {
+            List<Pedido> aux = new List<Pedido>();
+            foreach(Pedido pedido in Listpedidos)
+            {
+                aux.Add(pedido);
+            }
+            return aux;
+        }
+
+
+
 
     }
 }
