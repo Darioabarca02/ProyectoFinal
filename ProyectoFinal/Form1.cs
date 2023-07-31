@@ -12,8 +12,9 @@ namespace ProyectoFinal
 {
     public partial class Form1 : Form
     {
-        Pedidos pedidos = new Pedidos();
         double precio = 0;
+        Pedidos pedidos = new Pedidos();
+        
         public Form1()
         {
             InitializeComponent();
