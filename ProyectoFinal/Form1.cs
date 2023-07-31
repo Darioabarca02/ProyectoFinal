@@ -105,7 +105,9 @@ namespace ProyectoFinal
 
         private void btnSiguiente_Click(object sender, EventArgs e)
         {
-            
+            MostrarDatos mostrarDatos = new MostrarDatos();
+            mostrarDatos.Show();
+            mostrarDatos.pedidos = pedidos;
         }
     }
 }
