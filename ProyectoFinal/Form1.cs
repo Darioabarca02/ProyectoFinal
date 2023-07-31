@@ -13,7 +13,7 @@ namespace ProyectoFinal
     public partial class Form1 : Form
     {
         double precio = 0;
-        Pedidos pedidos = new Pedidos();
+        
         
         public Form1()
         {
