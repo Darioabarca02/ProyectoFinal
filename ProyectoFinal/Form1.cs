@@ -12,7 +12,7 @@ namespace ProyectoFinal
 {
     public partial class Form1 : Form
     {
-        Pedidos pedidos = new Pedidos();
+        zzz
         double precio = 0;
         public Form1()
         {
@@ -47,7 +47,7 @@ namespace ProyectoFinal
             pedido.Cantidad = Convert.ToInt32(txtCantidad.Text);
             pedido.Producto = cmbProductos.SelectedItem.ToString();
             pedido.TipoPago = cmbTipo.SelectedIndex.ToString();
-            pedidos.AddPed(pedido);
+            
 
             if (cmbProductos.SelectedIndex == -1)
             {
@@ -102,9 +102,7 @@ namespace ProyectoFinal
 
         private void btnSiguiente_Click(object sender, EventArgs e)
         {
-            MostrarDatos mostrarDatos = new MostrarDatos();
-            mostrarDatos.Show();
-            mostrarDatos.pedidos = pedidos;
+            
         }
     }
 }
